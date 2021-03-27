@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:pdfViewerApp="clr-namespace:PdfViewerApp;assembly=PdfViewerApp"
+             mc:Ignorable="d"
+             Padding="10"
+             x:Class="PdfViewerApp.MainPage">
+    <StackLayout Spacing="10">
+        <Button Text="Pick a file"
+                Clicked="PickAFile"
+                HorizontalOptions="FillAndExpand"
+                BackgroundColor="#0A67C1"
+                TextColor="White"/>
+        <Label x:Name="FileNameLabel"
+               FontSize="13"/>
+    </StackLayout>
+
+</ContentPage>
